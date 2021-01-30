@@ -1,0 +1,307 @@
+import os
+na=input('input filename>')
+f=open(na,"w+")
+v1=[input('birthyear last two digits>'),input('name of person>'),input('name of important person>'),input('favourite character or idol>'),input('favourite sports team or game>'),input('name of favourite animal>'),input('another important word>'),input('another important number>')]
+f.write('123456')
+fa=open(na,'a')
+fa.write('''123456789
+picture1
+password
+12345678
+111111
+123123
+12345
+1234567890
+senha
+senpai
+senpi
+1234567
+qwerty
+abc123
+Million2
+000000
+1234
+iloveyou
+ilikeyou
+iloveu
+ilikeu
+aaron431
+aron431
+password1
+qqww1122
+123
+omgpop
+123321
+654321
+qwertyuiop
+qwerty123456
+123456a
+a123456
+666666
+123456seven
+asdfghjkl
+ashley
+987654321
+unkown
+'unknown
+zxcvbnm
+112233
+chatbooks
+20100728
+123123123
+princess
+jacket025
+evite
+123abc
+123qwe
+sunshine
+121212
+dragon
+1q2w3e4r
+5201314
+159753
+0123456789
+pokemon
+qwerty123
+Bangbang123
+johnbandtalent
+monkey
+1qaz2wsx
+abcd1234
+default
+aaaaaa
+soccer
+123654
+dick
+blowjob
+fuckyou
+fucku
+micheal
+michealafton
+killer
+trustno1
+jordan
+gordon
+hunter
+buster
+soccer
+batman
+andrew
+fuckme
+harley
+2000
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+charlie
+robert
+thomas
+hockey
+ranger
+daniel
+starwars
+klaster
+george
+asshole
+asshat
+computer
+michelle
+jessica
+pepper
+1111
+zxcvbnm
+555555
+131313
+freedom
+7777777
+puss
+fuckmemaggie
+aaaaaa
+ginger
+princess
+joshua
+cheese
+amanda
+summer
+love
+ashley
+nicole
+chelsea
+biteme
+matthew
+access
+yankees
+dallas
+austiun
+thunder
+taylor
+matrix
+william
+williamafton
+corvette
+hello
+martin
+heather
+secret
+fucker
+merlin
+diamond
+1234qwer
+gfhjkm
+hammer
+silver
+2222222
+anthony
+justin
+themobilehacker
+biromantic2020
+biromantic
+asextual
+test
+bailey
+patrick
+internet
+scooter
+orange
+111111
+golfer
+cookie
+richard
+samantha
+bigdong
+bigdoggo
+guitar
+jackson
+whatever
+whateverdawg
+mickey
+mickeymouse
+chicken
+sparky
+snoopy
+maverick
+pheonix
+camero
+sexy
+peanut
+morgan
+welcome
+falcon
+cowboy
+ferrari
+samsung
+anderea
+smokey
+smokeythebear
+smokeybear
+steelers
+america
+noyhing
+parker
+4444
+rebecca
+qweqwe
+69696969
+jacks
+asdasd
+asdedasded
+december
+november
+magic
+apollo
+skippy
+parrot
+parrotos
+timcat
+godzilla
+brooklyn
+bullshit
+loveme
+saturn
+therock
+rockdwayne
+redwings
+bigboy
+pumpkin
+williams
+''')
+don=255
+n1=0
+while True:
+	n2=0
+	n3=0
+	if n1<=7:
+		n2=0
+		n3=0
+		while True:
+			if n2<=7:
+				n3=0
+				while True:
+					if n3<=7:
+						n4=0
+						while True:
+							if n4<=7:
+								fa.write(v1[n1]+v1[n2])
+								fa.write('''
+''')
+								fa.write(v1[n1]+v1[n2]+v1[n3])
+								fa.write('''
+''')
+								fa.write(v1[n1]+v1[n2]+v1[n3]+v1[n4])
+								fa.write('''
+''')
+								os.system('clear')
+								print('''
+<Entrophic password generator>
+''')
+								don+=3
+								do=don/12543*100
+								print('wordlist is %0.1f percent completed'%do)
+								print('%1.0f words completed'%don)
+								n4+=1
+							else:
+								break
+						n3+=1
+					else:
+						break
+				n2+=1
+			else:
+				break
+		n1+=1
+	else:
+		fa.close()
+		break
